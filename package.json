@@ -1,0 +1,20 @@
+{
+  "name": "node-lox-mock-miniserver",
+  "version": "0.0.1",
+  "description": "Mock websocket miniserver",
+  "main": "lib/index.js",
+  "bin": {
+    "lox-ws-miniserver": "bin/lox-mock-server.js"
+  },
+  "scripts": {
+    "start": "node bin/lox-mock-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ladislav Dokulil <alladdin@zemres.cz>",
+  "license": "MIT",
+  "dependencies": {
+    "config": ">=1.20.0",
+    "keypair": "^1.0.1",
+    "winston": ">=2.2.0"
+  }
+}

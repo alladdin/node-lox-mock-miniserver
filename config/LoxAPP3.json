@@ -1,0 +1,520 @@
+{
+    "lastModified":"2017-20-02 20:07:14",
+    "msInfo":{
+        "serialNr":"504F94101150",
+        "msName":"Loxone Miniserver",
+        "projectName":"Test project",
+        "localUrl":"192.168.0.77",
+        "remoteUrl":"dns.loxonecloud.com/504F94101150",
+        "tempUnit":0,
+        "currency":"€",
+        "location":"Prague",
+        "languageCode":"ENG",
+        "heatPeriodStart":"10-01",
+        "heatPeriodEnd":"04-30",
+        "coolPeriodStart":"05-01",
+        "coolPeriodEnd":"09-30",
+        "catTitle":"Category",
+        "roomTitle":"Room",
+        "miniserverType":0,
+        "sortByRating":false,
+        "currentUser":{
+            "name":"testlox",
+            "uuid":"0b515327-02aa-9681-ffff112233445566",
+            "isAdmin":true,
+            "changePassword":true
+        }
+    },
+    "globalStates":{
+        "operatingMode":"0b12309b-021a-039e-ffff112233445566",
+        "sunrise":"0b12309b-021a-03aa-ffff112233445566",
+        "sunset":"0b12309b-021a-03ac-ffff112233445566",
+        "pastTasks":"0cb9621d-03c5-1c54-ffffedb7f750247e",
+        "plannedTasks":"0cb9621d-03c5-1c53-ffffedb7f750247e",
+        "notifications":"0d830cdb-0082-028f-ffff7bdeef7f34d8",
+        "modifications":"0b12309b-014f-024d-ffff112233445566"
+    },
+    "operatingModes":{
+        "0":"Holiday",
+        "1":"Vacation",
+        "2":"School Holidays",
+        "3":"Monday",
+        "4":"Tuesday",
+        "5":"Wednesday",
+        "6":"Thursday",
+        "7":"Friday",
+        "8":"Saturday",
+        "9":"Sunday",
+        "-1":"Alarm",
+        "-2":"Presence Simulation",
+        "-3":"House in Deep Sleep",
+        "-4":"Increased Heat",
+        "-5":"Party",
+        "-6":"All Absent"
+    },
+    "rooms":{
+        "0b12309b-01cc-02ec-ffff112233445566":{
+            "uuid":"0b12309b-01cc-02ec-ffff112233445566",
+            "name":"Living Room",
+            "image":"00000000-0000-0031-2100000000000000.svg",
+            "defaultRating":0,
+            "isFavorite":false
+        }
+    },
+    "cats":{
+        "0b12309b-018e-0278-ffff112233445566":{
+            "uuid":"0b12309b-018e-0278-ffff112233445566",
+            "name":"Alarm",
+            "image":"00000000-0000-000f-2000000000000000.svg",
+            "defaultRating":0,
+            "isFavorite":false,
+            "type":"undefined",
+            "color":"#83B817"
+        },
+        "0b1c62f7-02da-2df6-ffff112233445566":{
+            "uuid":"0b1c62f7-02da-2df6-ffff112233445566",
+            "name":"Door",
+            "image":"00000000-0000-0020-2000000000000000.svg",
+            "defaultRating":0,
+            "isFavorite":false,
+            "type":"undefined",
+            "color":"#83B817"
+        },
+        "0b12309b-018e-0274-ffff112233445566":{
+            "uuid":"0b12309b-018e-0274-ffff112233445566",
+            "name":"Monitoring",
+            "image":"00000000-0000-000d-2000000000000000.svg",
+            "defaultRating":0,
+            "isFavorite":false,
+            "type":"undefined",
+            "color":"#83B817"
+        },
+        "0b12309b-018e-0272-ffff112233445566":{
+            "uuid":"0b12309b-018e-0272-ffff112233445566",
+            "name":"Window",
+            "image":"00000000-0000-000c-2000000000000000.svg",
+            "defaultRating":0,
+            "isFavorite":false,
+            "type":"undefined",
+            "color":"#83B817"
+        },
+        "0b12309b-017e-025e-ffff112233445566":{
+            "uuid":"0b12309b-017e-025e-ffff112233445566",
+            "name":"Lights",
+            "image":"00000000-0000-0002-2000000000000000.svg",
+            "defaultRating":7,
+            "isFavorite":true,
+            "type":"lights",
+            "color":"#83B817"
+        },
+        "0b12309b-018e-026c-ffff112233445566":{
+            "uuid":"0b12309b-018e-026c-ffff112233445566",
+            "name":"Temperature",
+            "image":"00000000-0000-0009-2000000000000000.svg",
+            "defaultRating":0,
+            "isFavorite":false,
+            "type":"indoortemperature",
+            "color":"#83B817"
+        },
+        "0b12309b-017e-0262-ffff112233445566":{
+            "uuid":"0b12309b-017e-0262-ffff112233445566",
+            "name":"Heating",
+            "image":"00000000-0000-0004-2000000000000000.svg",
+            "defaultRating":6,
+            "isFavorite":true,
+            "type":"undefined",
+            "color":"#83B817"
+        }
+    },
+    "controls":{
+        "0b52aa23-010a-16f3-ffff112233445566":{
+            "name":"Ovládání osvětlení",
+            "type":"LightController",
+            "uuidAction":"0b52aa23-010a-16f3-ffff112233445566",
+            "room":"0b12309b-01cc-02ec-ffff112233445566",
+            "cat":"0b12309b-017e-025e-ffff112233445566",
+            "defaultRating":0,
+            "isFavorite":false,
+            "isSecured":false,
+            "details":{
+                "movementScene":1
+            },
+            "states":{
+                "activeScene":"0b52aa23-010a-16f0-ffff504f94000000",
+                "sceneList":"0cb9621d-03b6-1715-ffff112233445566"
+            },
+            "subControls":{
+                "0b52aa23-010a-16f3-ffff112233445566/AI1":{
+                    "name":"Main Light",
+                    "type":"Switch",
+                    "uuidAction":"0b52aa23-010a-16f3-ffff112233445566/AI1",
+                    "defaultRating":0,
+                    "isFavorite":false,
+                    "isSecured":false,
+                    "states":{
+                        "active":"0b52aa23-010a-16e4-ffff504f94000000"
+                    }
+                }
+            }
+        },
+        "0b124144-018f-10fa-ffff112233445566":{
+            "name":"Window1",
+            "type":"InfoOnlyDigital",
+            "uuidAction":"0b124144-018f-10fa-ffff112233445566",
+            "room":"0b12309b-01cc-02ec-ffff112233445566",
+            "cat":"0b12309b-018e-0272-ffff112233445566",
+            "defaultRating":0,
+            "isFavorite":false,
+            "isSecured":false,
+            "details":{
+                "text":{
+                    "off":"Open",
+                    "on":"Close"
+                },
+                "color":{
+                    "off":"#BE1624",
+                    "on":"#73BA1B"
+                }
+            },
+            "states":{
+                "active":"0b124144-018f-10fa-ffff112233445566"
+            }
+        },
+        "0b124144-018f-10fa-ffff11223344556a":{
+            "name":"Window2",
+            "type":"InfoOnlyDigital",
+            "uuidAction":"0b124144-018f-10fa-ffff11223344556a",
+            "room":"0b12309b-01cc-02ec-ffff112233445566",
+            "cat":"0b12309b-018e-0272-ffff112233445566",
+            "defaultRating":0,
+            "isFavorite":false,
+            "isSecured":false,
+            "details":{
+                "text":{
+                    "off":"Open",
+                    "on":"Close"
+                },
+                "color":{
+                    "off":"#BE1624",
+                    "on":"#73BA1B"
+                }
+            },
+            "states":{
+                "active":"0b124144-018f-10fa-ffff11223344556a"
+            }
+        }
+    },
+    "weatherServer":{
+        "states":{
+            "actual":"0c022e9b-025f-12ae-ffff112233445566",
+            "forecast":"0c022e9b-025e-12ad-ffffb0e48bbedfc0"
+        },
+        "format":{
+            "relativeHumidity":"%.0f%%",
+            "temperature":"%.1f°",
+            "windSpeed":"%.0fkm/h",
+            "precipitation":"%.1fl/m²/h",
+            "barometricPressure":"%.0fhPa"
+        },
+        "weatherTypeTexts":{
+            "1":"Jasno",
+            "2":"Skoro jasno",
+            "3":"Polojasno",
+            "4":"Skoro zataženo",
+            "5":"Zataženo",
+            "6":"Mlha",
+            "7":"Oblačno",
+            "8":"nepoužito",
+            "9":"nepoužito",
+            "10":"Dešťové přeháňky",
+            "11":"Déšť",
+            "12":"Silný déšť",
+            "13":"mrholení",
+            "14":"Mírný mrznoucí déšť",
+            "15":"Silný mrznoucí déšť",
+            "16":"Déšť",
+            "17":"Liják",
+            "18":"bouřka",
+            "19":"silná bouře",
+            "20":"mírné sněžení",
+            "21":"sněžení",
+            "22":"silné snežení",
+            "23":"lehké sněžení",
+            "24":"silné sněžení",
+            "25":"Mírný déšť se sněhem",
+            "26":"plískanice",
+            "27":"Vidatný déšť se sněhem",
+            "28":"mírné sněžení",
+            "29":"silné sněžení"
+        },
+        "weatherFieldTypes":{
+            "1":{
+                "id":1,
+                "name":"Teplota",
+                "analog":true,
+                "unit":"°C",
+                "format":"%.1f"
+            },
+            "2":{
+                "id":2,
+                "name":"Rosný bod",
+                "analog":true,
+                "unit":"°C",
+                "format":"%.1f"
+            },
+            "3":{
+                "id":3,
+                "name":"Rel. vlhkost vzduchu",
+                "analog":true,
+                "format":"%.0f%%"
+            },
+            "4":{
+                "id":4,
+                "name":"Rychlost větru",
+                "analog":true,
+                "unit":"km/h",
+                "format":"%.0f"
+            },
+            "5":{
+                "id":5,
+                "name":"Směr větru",
+                "analog":true
+            },
+            "6":{
+                "id":6,
+                "name":"Nárazy větru",
+                "analog":true
+            },
+            "7":{
+                "id":7,
+                "name":"Abs. záření",
+                "analog":true
+            },
+            "8":{
+                "id":8,
+                "name":"Rel. zážení",
+                "analog":true
+            },
+            "9":{
+                "id":9,
+                "name":"Srážky",
+                "analog":true,
+                "unit":"l/m²/h",
+                "format":"%.1f"
+            },
+            "10":{
+                "id":10,
+                "name":"Typ počasí",
+                "analog":true
+            },
+            "11":{
+                "id":11,
+                "name":"Atmosferický tlak",
+                "analog":true,
+                "unit":"hPa",
+                "format":"%.0f"
+            },
+            "26":{
+                "id":26,
+                "name":"Vnímaná teplota",
+                "analog":true,
+                "unit":"°C",
+                "format":"%.1f"
+            },
+            "27":{
+                "id":27,
+                "name":"Záření",
+                "analog":true
+            },
+            "28":{
+                "id":28,
+                "name":"Pravděpodobnost srážek",
+                "analog":true
+            },
+            "29":{
+                "id":29,
+                "name":"Podíl sněhu",
+                "analog":true
+            },
+            "30":{
+                "id":30,
+                "name":"CAPE",
+                "analog":true
+            },
+            "31":{
+                "id":31,
+                "name":"Nízká oblačnost",
+                "analog":true
+            },
+            "32":{
+                "id":32,
+                "name":"Střední oblačnost",
+                "analog":true
+            },
+            "33":{
+                "id":33,
+                "name":"Vysoká oblačnost",
+                "analog":true
+            },
+            "34":{
+                "id":34,
+                "name":"Sluneční svit",
+                "analog":false
+            }
+        }
+    },
+    "times":{
+        "299":{
+            "id":299,
+            "name":"Impulz setmění",
+            "analog":false
+        },
+        "298":{
+            "id":298,
+            "name":"Impulz rozednění",
+            "analog":false
+        },
+        "295":{
+            "id":295,
+            "name":"Impulz západu slunce",
+            "analog":false
+        },
+        "294":{
+            "id":294,
+            "name":"Impulz východu slunce",
+            "analog":false
+        },
+        "293":{
+            "id":293,
+            "name":"Sekundový impulz",
+            "analog":false
+        },
+        "292":{
+            "id":292,
+            "name":"Minutový impulz",
+            "analog":false
+        },
+        "291":{
+            "id":291,
+            "name":"Hodinový impulz",
+            "analog":false
+        },
+        "290":{
+            "id":290,
+            "name":"Denní impulz",
+            "analog":false
+        },
+        "289":{
+            "id":289,
+            "name":"Měsíční impulz",
+            "analog":false
+        },
+        "288":{
+            "id":288,
+            "name":"Roční impulz",
+            "analog":false
+        },
+        "287":{
+            "id":287,
+            "name":"Počáteční impulz",
+            "analog":false
+        },
+        "286":{
+            "id":286,
+            "name":"Směr slunce",
+            "analog":true
+        },
+        "285":{
+            "id":285,
+            "name":"Výška slunce",
+            "analog":true
+        },
+        "284":{
+            "id":284,
+            "name":"Minuty do setmění",
+            "analog":true
+        },
+        "283":{
+            "id":283,
+            "name":"Minuty do úsvitu",
+            "analog":true
+        },
+        "282":{
+            "id":282,
+            "name":"Denní světlo 30 minut",
+            "analog":false
+        },
+        "281":{
+            "id":281,
+            "name":"Denní světlo",
+            "analog":false
+        },
+        "278":{
+            "id":278,
+            "name":"Minuty do západu slunce",
+            "analog":true
+        },
+        "277":{
+            "id":277,
+            "name":"Minuty do východu slunce",
+            "analog":true
+        },
+        "276":{
+            "id":276,
+            "name":"Sekundy od startu",
+            "analog":true
+        },
+        "275":{
+            "id":275,
+            "name":"Sekundy",
+            "analog":true
+        },
+        "274":{
+            "id":274,
+            "name":"Minuty",
+            "analog":true
+        },
+        "273":{
+            "id":273,
+            "name":"Hodina",
+            "analog":true
+        },
+        "272":{
+            "id":272,
+            "name":"Minuty od půlnoci",
+            "analog":true
+        },
+        "271":{
+            "id":271,
+            "name":"Typ kalendáře",
+            "analog":true
+        },
+        "270":{
+            "id":270,
+            "name":"Den v týdnu",
+            "analog":true
+        },
+        "269":{
+            "id":269,
+            "name":"Den",
+            "analog":true
+        },
+        "268":{
+            "id":268,
+            "name":"Měsíc",
+            "analog":true
+        },
+        "267":{
+            "id":267,
+            "name":"Rok",
+            "analog":true
+        },
+        "266":{
+            "id":266,
+            "name":"Dny od roku 2009",
+            "analog":true
+        }
+    },
+    "autopilot":{
+    }
+}

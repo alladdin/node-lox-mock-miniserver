@@ -1,0 +1,24 @@
+{
+    "winston": [{
+        "Console": {
+            "level": "debug",
+            "colorize": true,
+            "timestamp": true
+        }
+    }],
+    "miniserver": {
+        "port": "8080",
+        "username": "testlox",
+        "password": "1234",
+        "public_key": "public.key",
+        "private_key": "private.key",
+        "structure_file": "LoxAPP3.json",
+        "value_events": [
+            {
+                "uuid": "0b124144-018f-10fa-ffff11223344556a",
+                "every_seconds": 5,
+                "value": 1
+            }
+        ]
+    }
+}
