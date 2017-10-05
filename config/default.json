@@ -13,6 +13,10 @@
         "public_key": "public.key",
         "private_key": "private.key",
         "structure_file": "LoxAPP3.json",
+        "version": "8.1.11.11",
+        "sysversion": "08011111",
+        "version": "9.0.10.2",
+        "sysversion": "09001002",
         "value_events": [
             {
                 "uuid": "0b124144-018f-10fa-ffff11223344556a",

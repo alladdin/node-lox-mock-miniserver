@@ -202,6 +202,18 @@
             "states":{
                 "active":"0b124144-018f-10fa-ffff11223344556a"
             }
+        },
+        "0fa1f432-0111-40a5-fffffae984b19f22": {
+            "name": "Presence-test",
+            "type": "Presence",
+            "uuidAction": "0fa1f432-0111-40a5-fffffae984b19f22",
+            "room": "0b12309b-01cc-02ec-ffff112233445566",
+            "cat": "0b12309b-018e-0272-ffff112233445566",
+            "defaultRating": 9,
+            "isFavorite": false,
+            "isSecured": false,
+            "states": {
+            }
         }
     },
     "weatherServer":{
